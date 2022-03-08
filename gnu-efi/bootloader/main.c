@@ -1,5 +1,6 @@
 #include <efi.h>
 #include <efilib.h>
+#include <stddef.h>
 
 
 int memcmp(const void* aptr, const void* bptr, size_t n) {
